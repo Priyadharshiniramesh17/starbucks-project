@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.starbucks.in/assets/icon/logo.png"> 
+    <style>
+          *{
+            font-family: "Nunito", sans-serif;
+          }
+         .a1{
+            background-color: white;
+            font-size: large;
+            height: 73px;
+            width: 1355px;
+            display: flex;
+         }
+         ul{
+            width: 495px;
+            height: 73px;
+            display: flex;
+            justify-content: space-between;
+         }
+         .li1{
+            height: 20px;
+            width: 40px;
+            margin: 0 14px 0 14px;
+            padding-top: 8px;
+            padding-bottom: 11px;
+            font-weight: bold;
+         }
+         .li2{
+            height: 20px;
+            width: 40px;
+            margin: 0 14px 0 14px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+         }
+         .li3{
+            height: 20px;
+            width: 40px;
+            margin: 0 14px 0 14px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+         }
+         .li4{
+            height: 20px;
+            width: 40px;
+            margin: 0 14px 0 14px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+         }
+         .li5{
+            height: 20px;
+            width: 40px;
+            margin: 0 14px 0 14px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+         }
+         .img1{
+            width: 264px;
+            height: 40px;
+            border: 1px solid rgba(192, 180, 180, 0.77);
+            border-radius: 50px;
+            margin-left: 150px;
+            margin-top: 20px;
+            margin-right: 9px;
+         }
+         input{
+            width: 224px;
+            height: 16px;
+            border: none;
+         }
+        .img2{
+           margin-right: 50px;
+         }
+         .a2{
+            background-color:#0b3123; 
+            display: flex;
+            padding: 10px;
+         }
+         .head1{
+            height: 30px;
+            color: white;
+            font-size:20px ;
+            padding-left: 110px;
+         }
+         .btn1{
+            color: white;
+            margin-left: 750px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            margin-top: 20px;
+            background-color: #0b3123;
+         }
+         .btn2{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            margin-top: 10px;
+            background-color: #0b3123;
+         }
+         .btn3{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            margin-top: 10px;
+            background-color: #0b3123;
+         }
+         .btn4{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            margin-top: 10px;
+            background-color: #0b3123;
+         }
+        .a4{
+            display:flex ;
+            background-color: #3a967b;
+            width: 90%;
+            height: 250px;
+         }
+        .aa1{
+            flex-direction: column;
+            width: 90%;
+            height: 250px;
+            margin: 1px;
+            color: white;
+        }
+        .aa2{
+            padding: 30px;
+        }
+        .btn5{
+            color: black;
+            font-size: 18px;
+            height: 50px;
+            width: 250px;
+            margin-top: 170px;
+            margin-right: 50px;
+            border-radius: 50px;
+            border: none;
+        }
+        .li21{
+            margin-left: 90px;
+            text-align: center;
+        }
+        .box1{
+            margin-left: 60px;
+            text-align: justify;
+        }
+        .box2{
+            margin-left: 70px;
+            text-align: justify;
+        }
+        .box3{
+            margin-left: 70px;
+            text-align: justify;
+        }
+        .btn6{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            background-color: #0b3123;
+        }
+        .btn7{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            background-color: #0b3123;
+        }
+        .btn8{
+            color: white;
+            margin-left: 170px;
+            height: 35px;
+            width:95px;
+            border-color: white;
+            border-radius: 50px;
+            background-color: #0b3123;
+        }
+         .a7{
+            background-color: #edebe9;
+            margin-top: 180px;
+            height: 700px;
+         }
+         .bg1{
+            background-image: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/ICW_Live_Event_Day5_41f11ca3d2.jpg);
+            background-size: cover;
+            background-position: 100%;
+            border-image: fill 0 linear-gradient(#0003,#000);
+            height: 380px;
+            width: 80%;
+            margin-left: 140px;
+         }
+         .aa7{
+            display: flex;
+         }
+         .para5{
+            margin-top: 55px;
+            margin-left: 700px;
+         }
+         .btn9{
+            height: 40px;
+            width: 220px;
+            margin-top: 10px;
+            margin-left: 70px;
+            border-radius: 50px
+         }
+         .a8{
+            margin-top: 70px;
+            background-color:#124230;
+            height: 1000px;
+            font-size: 20px;
+            display: flex;
+            color: white;
+         }
+        .li31{
+            width: 200px;
+            font-size: larger;
+            margin-top: 110px;
+            flex-direction: column;
+        }
+        .li32{
+            width: 200px;
+            height: 0;
+            margin-top: 35px;
+            font-size:18px;
+        }
+        .li33{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li34{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li35{
+            width: 200px;
+            font-size: larger;
+            margin-top: 110px;
+            flex-direction: column;
+        }
+        .li36{
+            width: 200px;
+            height: 0;
+            font-size:smaller;
+            margin-top: 35px;
+        }
+        .li37{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li38{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li39{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li40{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 75px;
+        }
+        .li41{
+            width: 200px;
+            font-size: larger;
+            margin-top: 110px;
+            flex-direction: column;
+        }
+        .li42{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li43{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li44{
+            width: 300px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li45{
+            width: 300px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li46{
+            width: 300px;
+            height: 0;
+            font-size:18px;
+            margin-top: 65px;
+        }
+        .li47{
+            width: 350px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li48{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 65px;
+        }
+        .li49{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li50{
+            width: 400px;
+            height: 0;
+            font-size:18px;
+            margin-top: 45px;
+        }
+        .li51{
+            width: 200px;
+            height: 0;
+            font-size:18px;
+            margin-top: 65px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="a1">
+        <img src="https://www.starbucks.in/assets/icon/logo.png" alt="no-image" width="40px" height="40px" style="margin-top: 10px;margin-left: 120px;">
+        <ul style="list-style: none;">
+            <li class="li1">Home</li>
+            <li class="li2">Gift</li>
+            <li class="li3">Order</li>
+            <li class="li4">Pay</li>
+            <li class="li5">Store</li>
+        </ul>
+        <div class="img1">
+            <img src="https://www.starbucks.in/assets/icon/search.svg" width="20px" height="20px" style="margin-top: 7px;margin-right: 9px;">
+        <input type="text" placeholder="Looking for something specific?" style="margin-top: 1px;">
+       </div>
+
+       <div class="img2">
+        <a href="pro5.html">
+        <img src="https://www.starbucks.in/assets/icon/account_thin.svg" alt="no-image" width="32px" height="32px" style="margin-left: 130px; margin-top: 20px;" ></a>
+       </div>  
+    </div>
+    </header>
+
+        <div class="a2">
+            <p class="head1">Rewards are pouring.Sign up now!</p>
+            <button class="btn1">Know More</button>
+        </div>
+
+
+    <main>
+        <div class="a6" >
+            <h2 style="padding-left: 120px;padding-top:50px;">Latest Offerings</h2>
+
+            <div class="aa2" style="display: flex; width: 300px; height: 400px; flex-direction: row; ">
+
+
+            <div class="box1" style="border: 1px solid grey; ">
+                <img src="https://starbucksstatic.cognizantorderserv.com/Items/Large/webP/113849.webp" alt="no-image" width="340px" height="160px"><br>
+                <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="no-image">
+                <h4 style="text-align: center; margin-bottom: 5%;" >Belgium Chocolate Frappuccino
+                <br>TALL(354 ML).470 kcal</h4>
+                <p style="padding: 5px;">Blend of decadet Belgian chocolate sauce and coffee with a whipped chocolate topping. The beverage is finishe...</p>
+                <p><b>&nbsp;₹ 509.25</b><button class="btn6">Add Item</button></p>
+                
+            </div>
+
+            <div class="box2" style="border: 1px solid grey;">
+                <img src="https://starbucksstatic.cognizantorderserv.com/Items/Large/webP/113842.webp" alt="no-image" width="340px" height="160px">
+                <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="no-image">
+                <h4 style="text-align: center; margin-bottom: 5%;">Belgium Chocolate Latte
+                <br>SHORT(237ML).235kcal</h4>
+                <p style="padding: 5px;">Espresso with decadent Belgian chocolate sauce,mocha sauce and steamed milk. Topped with whipped chocolate to</p>
+                <p><b>&nbsp;₹ 430.50</b><button class="btn7">Add Item</button></p>
+                
+            </div>
+
+            <div class="box3" style="border: 1px solid grey; padding: px;">
+                <img src="https://starbucksstatic.cognizantorderserv.com/Items/Large/webP/113846.webp" alt="no-image" width="340px" height="160px">
+                <img src="https://www.starbucks.in/assets/icon/veg.svg" alt="no-image">
+                <h4 style="text-align: center;margin-bottom: 5%;">Iced Belgium Chocolate Latte<br>TALL(354ML).340kcal</h4>
+                <p style="padding: 5px;">Espresso with decadent Belgian chocolate sauce,mocha sauce and steamed milk served over ice. Topped with whip...</p>
+                <p><b>&nbsp;₹ 472.50</b><button class="btn8">Add Item</button></p>
+                
+            </div>
+          </div>
+        </div>
+
+        <div class="a4" style="margin-left:75px; margin-top: 40px;">
+            <img src="https://preprodtsbstorage.blob.core.windows.net/cms/uploads/285_x_595_App_removebg_preview_2_c4bc942184.png" alt="no-image" width="105px" height="208">
+            <div class="aa1" style="margin-left: 15px;">
+            <h2>Starbucks</h2>
+            <h3>Beverage Subscription</h3>
+            <p style="font-size: 18px;">starbucks Subscription is Back! Sip Your Favourites for Less. Tap for Details. T&C Apply</p>
+            <p class="para3">Starting From</p>
+            <h3>Rs.789</h3>
+        </div>
+            <button class="btn5">Know More</button>
+        </div>
+
+
+
+        <div class="a5">
+            <h2 style="padding-left: 120px;padding-top:50px; padding-bottom: 20px;">Handcrafted Curations</h2>
+            <ul style="list-style: none;">
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Bestseller.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Bestseller</li>
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Drinks.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Drinks</li>
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Food.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Food</li>
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/Merchandise.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Merchandise</li>
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/CoffeeAtHome.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Coffee At Home</li>
+                <li class="li21"><img src="https://starbucksstatic.cognizantorderserv.com/Category/Small/ReadyToEat.jpg" alt="no-image" width="108px" height="108" style="border-radius: 50%;">Ready to Eat</li>
+            </ul>
+        </div>
+    </main>
+
+
+       
+
+        <div class="a7">
+            <div class="aa7">
+           <h2 style="padding-left: 70px;padding-top:50px; padding-bottom: 25px;">Learn more about the world of coffee!</h2>
+           <p class="para5">discover more</p>
+        </div>
+
+        <div class="bg1">
+           <h2 style="padding-left: 70px; padding-top:220px; color: white;" >Art & Science Of Coffee Brewing</h2>
+           <p style="color: white; margin-bottom: 10px; margin-left: 70px;">Master the perfect brew with Starbucks! Learn the art and science of coffee brewing</p>
+           <button class="btn9">Learn More</button>
+        </div>
+        </div>
+
+        <footer class="a8">
+            <img src="https://www.starbucks.in/assets/icon/logo.png" alt="no-image" width="62px" height="62px" style="padding: 90px;">
+            <ul class="li31" style="list-style: none;"><b>About Us</b>
+                <li class="li32">Our Heritage</li>
+                <li class="li33">Coffeehouse</li>
+                <li class="li34">Our Company</li>
+            </ul>          
+
+            <ul class="li35" style="list-style: none;"><b>Responsibility</b>
+                <li class="li36">Diversity</li>
+                <li class="li37">Commuity</li>
+                <li class="li38">Ethical Sourcing</li>
+                <li class="li39">Environmental<br>Stewardship</li>
+                <li class="li40">Learn More</li>
+            </ul>
+
+            <ul class="li41" style="list-style: none;"><b>Ouick Links</b>
+                <li class="li42">Privacy Policy</li>
+                <li class="li43">FAQs</li>
+                <li class="li44">Terms and Conditions</li>
+                <li class="li45">Starbucks India Mobile<br>App Terms of Use</li>
+                <li class="li46">Customer Service</li>
+                <li class="li47">Starbucks Rewards Day<br>Offer</li>
+                <li class="li48">Delivery</li>
+                <li class="li49">Season's Gifting</li>
+                <li class="li50">Offer for Beverage<br>Subscription at Starbucks.</li>
+                <li class="li51">Beverage Subscription</li>
+            </ul>
+    
+         <div class="img5">
+            <img src="https://www.starbucks.in/assets/images/appstoreiOS.png" alt="no-image" width="194px" height="62px" style="margin-left: 140px; margin-top: 110px;"><br>
+            <img src="https://www.starbucks.in/assets/images/appstoreAndroid.png" alt="no-image" width="194px" height="62px"style="margin-left: 140px;">
+        </div>
+    </footer>
+
+        <div class="a10" style="display: flex;">
+        <br><ul style="list-style: none;">
+            <li>Web Accessiblity  |</li>
+            <li>  Privacy Statement |</li>
+            <li>Terms of Use|</li>
+            <li>Contact Us|</li>
+        </ul>
+        <h6 style="margin-left: 500px;">© 2024 Starbucks Coffee Company. All rights reserved.</h6>
+    <footer>
+
+</body>
+</html>
